@@ -1,0 +1,8 @@
+[package]
+name = "transformers-bevy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.19.1", features = ["bevy_remote"] }
+bevy_brp_extras = "0.22.8"
